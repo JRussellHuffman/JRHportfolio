@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>the work of Joel Russell Huffman</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="The portfolio of Joel Russell Huffman, user experience designer, web developer, and interactive installation developers">
+	<meta name="keywords" content="interaction design, visual design, web development, user experience design, interactive environments, installations, art">
+	<meta name="author" content="Joel Russell Huffman">
+	<meta name="theme-color" content="#f44336">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/content.js"></script>
+	<script type="text/javascript" src="js/snap.svg-min.js"></script>
+	<script type="text/javascript" src="js/svgLogo.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Josefin+Slab:700,400' rel='stylesheet' type='text/css'>
+	<!-- favicons -->
+	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-72115837-1', 'auto');
+		ga('send', 'pageview');
+
+	</script>
+	
+</head>
+<body>
+	<div class="headContainer">
+		<div class="header">
+			<div class="logoContainer">
+				<!-- logo loaded here -->
+			</div>
+			<div class="menu">
+				<h3 class="menuItem"><a href="index.html#design">Design</a></h3>
+				<h3 class="menuItem"><a href="index.html#about">About</a></h3>
+				<h3 class="menuItem"><a href="index.html#contact">Contact</a></h3>
+			</div>
+			<div class="menuButton" onclick="twist ()">
+	            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	             viewBox="0 0 50.1 34.9" enable-background="new 0 0 50.1 34.9" xml:space="preserve">
+	                <rect id="line1" width="50" height="5" fill="#fff"/>
+	                <rect id="line2" y="15" width="50" height="5" fill="#fff"/>
+	                <rect id="line3" y="30" width="50" height="5" fill="#fff"/>
+	            </svg>
+	        </div>
+	        <div id="slideMenu">
+		        <ul id="menu">
+    				<li class="headerMenu"><a class="menuItem three" href="index.html#design">Design</a></li>
+                    <li class="headerMenu"><a class="menuItem one" href="index.html#about">About</a></li>
+                    <li class="headerMenu"><a class="menuItem two" href="index.html#contact">Contact</a></li>
+                </ul>
+		    </div>
+		</div>
+	</div>
+	<div class="headPadding"></div>
+	<div class="projectContainer">
+		<div class="project"></div>
+	</div>
+	<script type="text/javascript">
+
+		$(document).ready(function() {
+			$("div.logoContainer").load("logoProjects.html");
+		})
+
+	</script>
+	<script type="text/javascript" src="js/thumbHandler.js"></script>
+	<script type="text/javascript" src="js/function.js"></script>
+	<script type="text/javascript"> goBack();</script>
+
+</body>
+</html>
